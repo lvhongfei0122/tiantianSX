@@ -1,0 +1,135 @@
+*{
+	margin:0 auto;
+	padding:0 auto;
+}
+#zong{
+	width:100%;
+	overflow: hidden;
+}
+#body{
+	width:90%;
+	overflow: hidden;
+	margin-top: 50px;
+}
+#zuo{
+	float:left;
+	margin-left: 300px;
+	height:500px;
+	background: url(../images/register_banner.png) 0 150px  no-repeat;
+	
+}
+#zuo p{
+	font-size:25px;
+	margin-top: 20px;
+	color:green;
+}
+#zuo p span{
+	margin:0 10px;
+	font-weight: 600;
+}
+#zhong{
+	width:5px;
+	float:left;
+	margin-left: 50px;
+}
+#you{
+	float:left;
+	width:30%;
+	height:600px;
+	margin-left: 50px;
+}
+#you #top{
+	width:90%;
+	height:60px;
+	border-bottom:1px solid #808080;
+}
+#top .zc{
+	height:40px;
+	line-height: 40px;
+	float:left;
+	font-size: 25px;
+	color:#808080;
+	margin-top:20px;
+}
+#top #bei{
+	float:right;
+	width:20px;
+	height:20px;
+	margin-top:35px;
+	/*border:1px solid red;*/
+	background: url(../images/icons02.png) 0 0 no-repeat;
+}
+#top .dl{
+	height:40px;
+	line-height: 40px;
+	float:right;
+	margin-top:20px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+#top .dl a{
+	color:green;
+	text-decoration: none;
+}
+#register{
+	width:100%;
+	padding-left: 20px;
+	color:#808080;
+}
+#register #register-box{
+	width:100%;
+	height:50px;
+	font-size: 15px;
+	margin-top: 20px;
+}
+#register #register-box input{
+	width:60%;
+	height:30px;
+	vertical-align: middle;
+	background: #f7f7f7;
+	border:1px solid #808080;
+}
+
+/*注册协议部分*/
+.xieyi{
+	height:55px;
+	line-height: 55px;
+	width:100%;
+	margin-top: 20px;
+}
+.xieyi .box{
+	border:none;
+	padding: 0px;
+}
+.xieyi .box input{
+	height: 15px;
+	width: 15px;
+	padding: 0px;
+}
+/*提交按钮*/
+#btn{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border:none;
+	margin-top: 20px;
+	background: green;
+	border-radius: 5px;
+	font-size:18px;
+	color:#fff;
+	cursor: pointer;
+}
+#foot{
+	width:90%;
+	padding:0 5%;
+	overflow: hidden;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	border-top:2px solid green;
+}
+#foot p{
+	color:#808080;
+	width:100%;
+	text-align: center;
+	margin-top: 20px;
+}
